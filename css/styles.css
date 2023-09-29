@@ -91,7 +91,6 @@ address {
 .header-menu {
   display: flex;
   gap: 40px;
-  color: #404bbf;
 }
 
 .logo {
@@ -118,7 +117,7 @@ address {
 .nav-link {
   position: relative;
   display: inline-block;
-  color: var(--c-background-dark);
+  color: #404bbf;
   font-weight: 500;
   padding: 24px 0;
 
@@ -132,7 +131,7 @@ address {
   bottom: -1px;
   height: 4px;
   border-radius: 2px;
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .nav-link:hover {
