@@ -91,6 +91,7 @@ address {
 .header-menu {
   display: flex;
   gap: 40px;
+  color: #404bbf;
 }
 
 .logo {
@@ -131,6 +132,7 @@ address {
   bottom: -1px;
   height: 4px;
   border-radius: 2px;
+  color: #404bbf;
 }
 
 .nav-link:hover {
@@ -173,6 +175,9 @@ address {
   background-image:  linear-gradient(rgba(46, 47, 66, 0.7),
   rgba(46, 47, 66, 0.7)),
   url(../images/background-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   max-width: 1440px;
 }
 
@@ -205,6 +210,8 @@ address {
   padding: 16px 32px;
   margin: 0 auto;
   min-width: 169px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover {
@@ -346,6 +353,10 @@ background-color: var(--c-primary);
   background-color: #404bbf;
 }
 
+.ourteam-icon {
+  fill: var(--c-background-light)
+}
+
 /* Our portfolio section */
 .ourportfolio-title {
   color: #2e2f42;
@@ -477,8 +488,6 @@ background-color: var(--c-primary);
 .footer-socials {
   width: 40px;
   height: 40px;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-link {
@@ -489,6 +498,8 @@ background-color: var(--c-primary);
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-link:hover {
@@ -497,4 +508,8 @@ background-color: var(--c-primary);
 
 .footer-socials-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-socials-icon {
+  fill: var(--c-background-light)
 }
